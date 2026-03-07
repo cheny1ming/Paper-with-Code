@@ -2,7 +2,7 @@
 
 ## 项目概览
 
-这个项目实现了一个完整的端到端Vision Transformer (ViT) 模型，专注于图像分类任务。这是我关于ViT的博客文章：[ViT](https://cheny1ming.github.io/Blogs/post.html?id=vit)
+这个项目实现了一个完整的端到端Vision Transformer (ViT) 模型，专注于图像分类任务。
 
 ### 核心文件
 - [image_encoder.py](image_encoder.py) - 图像编码器实现

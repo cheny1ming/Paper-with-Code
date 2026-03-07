@@ -1,6 +1,6 @@
 # Vision Transformer (ViT) 实现
 
-这是一个从零开始实现的端到端Vision Transformer (ViT) 模型，专注于图像分类任务。
+这是一个从零开始实现的端到端Vision Transformer (ViT) 模型，专注于图像分类任务。这是我关于ViT的博客文章：[ViT](https://cheny1ming.github.io/Blogs/post.html?id=vit)
 
 ## 项目结构
 
@@ -91,6 +91,8 @@ image = torch.randn(1, 3, 224, 224)
 features = model.forward_features(image)
 print(features.shape)  # torch.Size([1, 768])
 ```
+
+更多详细配置请见QUICKSTART.md
 
 ## 训练模型
 
