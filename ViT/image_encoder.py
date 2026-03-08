@@ -218,7 +218,7 @@ if __name__ == "__main__":
     output = model(x)
     features = model.forward_features(x)
 
-    print(f"Input shape: {x.shape}")
-    print(f"Output shape: {output.shape}")
-    print(f"Features shape: {features.shape}")
-    print(f"Total parameters: {sum(p.numel() for p in model.parameters()):,}")
+    print(f"Input shape: {x.shape}") # [2, 3, 224, 224]
+    print(f"Output shape: {output.shape}") # [2, 1000]
+    print(f"Features shape: {features.shape}") # [2, 768]
+    print(f"Total parameters: {sum(p.numel() for p in model.parameters()):,}") # 86,567,656
