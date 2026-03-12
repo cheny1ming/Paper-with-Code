@@ -2,6 +2,16 @@
 
 这是一个从零开始实现的端到端Vision Transformer (ViT) 模型，专注于图像分类任务。这是我关于ViT的博客文章：[ViT](https://cheny1ming.github.io/Blogs/post.html?id=vit)
 
+## 实现内容:
+- ✅ Patch Embedding - 图像分块与嵌入
+- ✅ Multi-Head Self-Attention - 多头自注意力机制
+- ✅ Transformer Blocks - Transformer 编码器块
+- ✅ Positional Encoding - 位置编码
+- ✅ CLS Token 分类
+- ✅ 完整训练流程
+- ✅ 数据增强与加载
+- ✅ 多种模型配置 (Tiny/Small/Base/Large/Huge)
+
 ## 项目结构
 
 ```

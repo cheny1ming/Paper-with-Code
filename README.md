@@ -21,23 +21,6 @@
 
 **目录**: [ViT/](ViT/)
 
-**实现内容**:
-- ✅ Patch Embedding - 图像分块与嵌入
-- ✅ Multi-Head Self-Attention - 多头自注意力机制
-- ✅ Transformer Blocks - Transformer 编码器块
-- ✅ Positional Encoding - 位置编码
-- ✅ CLS Token 分类
-- ✅ 完整训练流程
-- ✅ 数据增强与加载
-- ✅ 多种模型配置 (Tiny/Small/Base/Large/Huge)
-
-**快速开始**:
-```bash
-cd ViT
-pip install -r requirements.txt
-python test_model.py
-```
-
 ## 🚧 更新计划
 
 ### 近期计划
@@ -149,10 +132,6 @@ python test_model.py
 ├── VideoMAE - 视频自监督学习
 ├── Video Diffusion - 视频扩散模型
 └── AnimateDiff - 动画生成模型
-
-高级应用
-├── SAM - 分割大模型
-└── Whisper - 语音多模态
 ```
 
 
