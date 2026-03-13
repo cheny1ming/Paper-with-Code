@@ -21,24 +21,21 @@
 
 **目录**: [ViT/](ViT/)
 
+**状态**: ✅ 已完成
+
+### 2. CLIP (Contrastive Language-Image Pre-training)
+
+**论文**: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
+
+**目录**: [CLIP/](CLIP/)
+
+**状态**: ✅ 已完成
+
 ## 🚧 更新计划
 
 ### 近期计划
 
-#### 1. CLIP (Contrastive Language-Image Pre-training)
-**论文**: [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
-
-**预计实现内容**:
-- ⬜ Image Encoder (基于 ViT/CNN)
-- ⬜ Text Encoder (基于 Transformer)
-- ⬜ Contrastive Loss 对比学习
-- ⬜ 多模态特征对齐
-- ⬜ Zero-shot 图像分类
-- ⬜ 图文检索
-
-**状态**: 📋 准备中
-
-#### 2. Swin Transformer
+#### 1. Swin Transformer
 **论文**: [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030)
 
 **预计实现内容**:
@@ -119,7 +116,7 @@
 ├── Vision Transformer (ViT) ✅
 │   └── 理解 Transformer 在视觉中的应用
 │
-├── CLIP (进行中)
+├── CLIP ✅
 │   └── 学习多模态对比学习
 │
 ├── Swin Transformer (计划中)
@@ -158,7 +155,7 @@
 | 模型 | 论文阅读 | 代码实现 | 测试验证 | 文档完善 | 博客发布 |
 |------|----------|----------|----------|----------|----------|
 | ViT  | ✅ | ✅ | ✅ | ✅ | ✅ |
-| CLIP | ✅ | 🚧 | ⬜ | ⬜ | ⬜ |
+| CLIP | ✅ | ✅ | ✅ | ⬜ | ⬜ |
 | Swin Transformer | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | Stable Diffusion | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | VideoMAE | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -190,4 +187,4 @@ MIT License
 
 ⭐ 如果这个项目对你有帮助，欢迎 Star 支持一下！
 
-最后更新: 2026-03-12
+最后更新: 2026-03-13

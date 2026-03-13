@@ -1,6 +1,15 @@
 # CLIP (Contrastive Language-Image Pre-training) Implementation
 
 完整的端到端CLIP算法实现，基于论文 "Learning Transferable Visual Models From Natural Language Supervision"。
+这是我的Blog: [CLIP](https://cheny1ming.github.io/Blogs/post.html?id=clip)
+
+## 实现内容:
+- ✅ Image Encoder (基于 ViT)
+- ✅ Text Encoder (基于 Transformer)
+- ✅ Contrastive Loss 对比学习
+- ✅ 多模态特征对齐
+- ✅ Zero-shot 图像分类
+- ✅ 图文检索
 
 ## 项目结构
 
@@ -154,4 +163,3 @@ pip install torch torchvision numpy pillow
 
 - [CLIP论文](https://arxiv.org/abs/2103.00020)
 - [Vision Transformer论文](https://arxiv.org/abs/2010.11929)
-- [Attention is All You Need](https://arxiv.org/abs/1706.03762)
